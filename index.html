@@ -11,17 +11,43 @@
 
   <style>
     body {
-      font-family: courier, monospace;
+      height:100%;
+      font-family: sans-serif;
       font-size: 24px;
       line-height: 120%;
       font-weight: 100;
       margin: 16px;
-      background: #eee;
+
+    }
+    .container{
+      display: flex;
+    }
+    .module{
+      font-size:32px;
+      background-color:#ffc799;
+      background-color:#99ffdd;
+      background-image:
+      radial-gradient(at 44% 62%, hsla(91,78%,70%,1) 0px, transparent 50%),
+      radial-gradient(at 32% 6%, hsla(14,79%,72%,1) 0px, transparent 50%),
+      radial-gradient(at 16% 8%, hsla(8,88%,61%,1) 0px, transparent 50%),
+      radial-gradient(at 29% 41%, hsla(102,81%,74%,1) 0px, transparent 50%),
+      radial-gradient(at 63% 80%, hsla(273,87%,79%,1) 0px, transparent 50%),
+      radial-gradient(at 63% 21%, hsla(330,89%,69%,1) 0px, transparent 50%),
+      radial-gradient(at 21% 21%, hsla(169,66%,68%,1) 0px, transparent 50%);
+      color: #222;
+      padding:100px 20px;
+      margin:10px;
+      width:50%;
+      border-radius: 10px;
+
+      text-align: center;
+
     }
   </style>
-  </body>
+  <body>
   <script src="names.js" type="text/javascript"></script>
-  <div>
+  <div class="container">
+  <div class="module">
     <script type="text/javascript">
       var locationsName = locations[Math.floor(Math.random() * locations.length)];
       document.write("<span>" + locationsName + "</span>");
@@ -29,12 +55,14 @@
 
   </div>
 
-  <div>BPM:
+  <div  class="module">
+    BPM:
     <script type="text/javascript">
       var bPM = Math.floor(Math.random() * 200) + 100;
       document.write("<span>" + bPM + "</span>");
     </script>
 
+  </div>
   </div>
 
 
