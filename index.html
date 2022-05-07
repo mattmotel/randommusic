@@ -7,8 +7,8 @@
   <title>Dan's Super Cool Music Generator</title>
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://mattmotel.github.io/randommusic/assets/spinguitar.gif" />
   <script src="https://cdn.tailwindcss.com"></script>
-
 
   <style>
     body {
@@ -20,9 +20,7 @@
       font-weight: 100;
 
     }
-    .container{
 
-    }
     .module{
       font-size:32px;
       background-color:#333;
@@ -41,8 +39,8 @@
   <div class="container grid grid-cols-1 lg:grid-cols-3 gap-8">
   <div class="module">
     <script type="text/javascript">
-      var locationsName = locations[Math.floor(Math.random() * locations.length)];
-      document.write("<span>" + locationsName + "</span>");
+      var keyName = keys[Math.floor(Math.random() * keys.length)];
+      document.write("<span>" + keyName + "</span>");
     </script>
 
   </div>
