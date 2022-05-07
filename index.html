@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <meta charset="utf-8">
+  <title>Random</title>
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+
+
+<style>
+    body {
+      font-family: courier, monospace;
+      font-size: 24px;
+      line-height: 120%;
+      font-weight: 100;
+      margin: 16px;
+      background: #eee;
+    }
+
+  
+
+
+</style>
+</body>
+  <script src="names.js" type="text/javascript"></script>
+      <div>
+        <script type="text/javascript">
+          var locationsName = locations[Math.floor(Math.random() * locations.length)];
+          document.write("<span>" + locationsName + "</span>");
+        </script>
+
+      </div>
+
+      <div>BPM:
+        <script type="text/javascript">
+          var bPM =   Math.floor(Math.random() * 200) + 100;
+          document.write("<span>" + bPM + "</span>");
+        </script>
+
+      </div>
+
+
+
+
+</html>
