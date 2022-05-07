@@ -16,18 +16,18 @@ var keys = [
   "Key of C Sharp",
 ];
 var scale = [
-"Major",
-"Minor",
-"Pentatonic Major",
-"Pentatonic Minor",
-"Ionian",
-"Dorian",
-"Phrygian",
-"Lydian",
-"Lydian Minor",
-"Mixolydian",
-"Aeolian",
-"Locrian",
-"Diatonic",
-"Diminished"
+  "Major",
+  "Minor",
+  "Pentatonic Major",
+  "Pentatonic Minor",
+  "Ionian",
+  "Dorian",
+  "Phrygian",
+  "Lydian",
+  "Lydian Minor",
+  "Mixolydian",
+  "Aeolian",
+  "Locrian",
+  "Diatonic",
+  "Diminished"
 ];
